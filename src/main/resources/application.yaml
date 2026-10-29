@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: AutoAndesBackend
+  profiles:
+    active: ${SPRING_PROFILES_ACTIVE:dev}
+  jpa:
+    open-in-view: false
+  flyway:
+    enabled: true
+app:
+  zona-horaria: America/Lima
+  cors:
+    allowed-origins: http://localhost:4200
+  jwt:
+    expiracion-minutos: 60

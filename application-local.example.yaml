@@ -1,0 +1,8 @@
+# Copiar como application-local.yaml y completar antes de iniciar en desarrollo.
+spring:
+  datasource:
+    password: ""
+app:
+  jwt:
+    # Base64 de al menos 32 bytes aleatorios. No versionar la clave real.
+    secret: ""
