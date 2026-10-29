@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:autoandes;MODE=Oracle;DB_CLOSE_DELAY=-1
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+  flyway:
+    enabled: false
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: create-drop
+app:
+  jwt:
+    secret: YXV0b2FuZGVzLWRlc2Fycm9sbG8tMjAyNi1jbGF2ZS1qd3QtNjQtYnl0ZXMtZXhjbHVzaXZh
+logging:
+  level:
+    root: WARN
