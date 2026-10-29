@@ -1,0 +1,13 @@
+package pe.edu.upeu.autoandes.enums;
+
+/** Authorities del backend; también se devuelven al frontend durante el login. */
+public enum Permiso {
+    SERVICIO_LEER,
+    SERVICIO_ESCRIBIR,
+    VEHICULO_LEER,
+    VEHICULO_ESCRIBIR,
+    ORDEN_LEER,
+    ORDEN_REGISTRAR,
+    ORDEN_ANULAR,
+    REPORTE_VER
+}
